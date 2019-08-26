@@ -5,7 +5,7 @@ const config = require('./firebase-config.json')
 // Para conectarse a la bd de firebase
 firebase.initializeApp({
     credential: firebase.credential.cert(config),
-    databaseURL: 'https://patitas-b0e03.firebaseio.com'
+    databaseURL: process.env.DATABASE_URL
 })
 
 // Para exportar la

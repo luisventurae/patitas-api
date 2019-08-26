@@ -1,1 +1,4 @@
 node_modules/
+
+# Firebase config
+firebase-config.json
